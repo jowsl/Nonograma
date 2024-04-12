@@ -298,7 +298,7 @@ int** criaMatriz(int m, int n){
     int **matriz = malloc (m * sizeof(int*));
     for (int i = 0; i < m; i++){
         matriz[i] = malloc(n * sizeof(int));
-        }
+    }
     return matriz;
 }
 
